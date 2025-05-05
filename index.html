@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .project {
+            flex: 1 1 calc(50% - 10px);
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>John Doe</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm John Doe, a passionate web developer with experience in building websites and web applications using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="container" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A cool website built with HTML and CSS.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A JavaScript app for task management.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: johndoe@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+
+    <footer>
+        &copy; 2025 John Doe. All rights reserved.
+    </footer>
+
+</body>
+</html>
